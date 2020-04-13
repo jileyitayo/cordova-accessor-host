@@ -1,0 +1,54 @@
+{
+  "_from": "git+https://github.com/wshaheer/cordova-plugin-msband.git",
+  "_id": "cordova-plugin-msband@0.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-msband",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/wshaheer/cordova-plugin-msband.git",
+    "rawSpec": "https://github.com/wshaheer/cordova-plugin-msband.git",
+    "saveSpec": "git+https://github.com/wshaheer/cordova-plugin-msband.git",
+    "fetchSpec": "https://github.com/wshaheer/cordova-plugin-msband.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/wshaheer/cordova-plugin-msband.git#4be3f4f694d8880d13f361b64ab7abc52ee667e0",
+  "_spec": "https://github.com/wshaheer/cordova-plugin-msband.git",
+  "_where": "/Users/JIL/AndroidStudioProjects/2020/CordovaAccessorHost",
+  "author": {
+    "name": "Walid Mahbub Shaheer"
+  },
+  "bugs": {
+    "url": "https://github.com/wshaheer/cordova-plugin-msband/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-msband",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Plugin for Microsoft Band",
+  "homepage": "https://github.com/wshaheer/cordova-plugin-msband#readme",
+  "keywords": [
+    "cordova",
+    "microsoft-band",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-msband",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wshaheer/cordova-plugin-msband.git"
+  },
+  "version": "0.0.3"
+}

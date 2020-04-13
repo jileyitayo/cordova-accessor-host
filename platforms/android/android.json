@@ -1,0 +1,99 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Huawei\"><param name=\"android-package\" value=\"huawei_band\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Sms\"><param name=\"android-package\" value=\"com.cordova.plugins.sms.Sms\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Email\"><param name=\"android-package\" value=\"com.jse52.email.Email\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\" />",
+              "count": 1
+            }
+          ],
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "org.accessors.cordova.sesame"
+    },
+    "cordova-plugin-huawei": {
+      "PACKAGE_NAME": "org.accessors.cordova.sesame"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "com.jse52"
+    },
+    "cordova-plugin-email": {
+      "PACKAGE_NAME": "com.jse52"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-huawei.Huawei",
+      "file": "plugins/cordova-plugin-huawei/www/Huawei.js",
+      "pluginId": "cordova-plugin-huawei",
+      "clobbers": [
+        "cordova.plugins.huawei"
+      ]
+    },
+    {
+      "id": "cordova-sms-plugin.Sms",
+      "file": "plugins/cordova-sms-plugin/www/sms.js",
+      "pluginId": "cordova-sms-plugin",
+      "clobbers": [
+        "window.sms"
+      ]
+    },
+    {
+      "id": "cordova-plugin-email.Email",
+      "file": "plugins/cordova-plugin-email/www/email.js",
+      "pluginId": "cordova-plugin-email",
+      "clobbers": [
+        "email"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-huawei": "0.0.1",
+    "cordova-sms-plugin": "1.0.0",
+    "cordova-plugin-email": "0.0.1"
+  }
+}

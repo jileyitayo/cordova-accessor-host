@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.accessors.cordova.sesame" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>CordovaAccessor</name>
+    <description>
+        Application to show how to use accessors and swarmlets in a Cordova Project.
+    </description>
+    <author email="accessors-devel@icyphy.org" href="http://icyphy.org">
+        iCyPhy Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="MSBandPlugin">
+        <param name="android-package" value="com.sensauratech.msband.MSBandPlugin" />
+    </feature>
+    <feature name="Wearos">
+        <param name="android-package" value="com.jse52.wearos.Wearos" />
+    </feature>
+    <feature name="Prediction">
+        <param name="android-package" value="com.jse52.prediction.Prediction" />
+    </feature>
+    <feature name="Sms">
+        <param name="android-package" value="com.cordova.plugins.sms.Sms" />
+    </feature>
+    <feature name="Email">
+        <param name="android-package" value="com.jse52.email.Email" />
+    </feature>
+</widget>

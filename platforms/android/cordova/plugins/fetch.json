@@ -1,0 +1,10 @@
+{
+  "cordova-plugin-prediction": {
+    "source": {
+      "type": "local",
+      "path": "/Users/JIL/AndroidStudioProjects/2019/Research/accessors-master/web/hosts/cordova/demo/HelloCordova/platforms/android/node_modules/cordova-plugin-prediction"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

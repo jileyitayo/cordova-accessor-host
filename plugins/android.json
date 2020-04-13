@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "org.accessors.cordova.sesame"
+    },
+    "cordova-plugin-msband": {
+      "PACKAGE_NAME": "wearos_band.smartwatch"
+    },
+    "cordova-plugin-wearos": {
+      "PACKAGE_NAME": "wearos_band.smartwatch"
+    },
+    "cordova-plugin-prediction": {
+      "PACKAGE_NAME": "wearos_band.smartwatch"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "com.jse52"
+    },
+    "cordova-plugin-email": {
+      "PACKAGE_NAME": "com.jse52"
+    }
+  },
+  "dependent_plugins": {}
+}

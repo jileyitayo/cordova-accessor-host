@@ -1,0 +1,16 @@
+{
+  "name": "cordova-plugin-prediction",
+  "version": "0.0.1",
+  "description": "This plugin predicts certain Sensor data",
+  "cordova": {
+    "id": "cordova-plugin-prediction",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Jesuloluwa eyitayo",
+  "license": "ISC"
+}
